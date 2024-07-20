@@ -28,3 +28,4 @@ tzdata==2023.4
 virtualenv==20.25.0
 virtualenvwrapper-win==1.2.7
 Werkzeug==3.0.3
+uvicorn==0.17.6
