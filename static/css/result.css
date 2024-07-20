@@ -1,0 +1,58 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: hsl(180, 77%, 48%);
+    background-image: url('/static/image/bankbg.jpg')
+  }
+  
+  h1 {
+    text-align: center;
+    color: #cdc831;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  
+  p {
+    font-size: 30px;
+    font-family:'Trebuchet MS';
+    text-align: center;
+    background-color:rgb(198, 211, 211);
+    color: #0c0a0a; /* medium gray text */
+    /*margin-top: 50px;
+    margin-bottom: 30px;*/
+    border: 10px solid rgb(17, 116, 169);
+    padding: 50px;
+    margin: 20px;
+   
+
+  }
+  
+  .button {
+    background-color: #0eaf13; /* green button */
+    color: #fff; /* white text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: 35%;
+    
+    /*width: 40%;*/
+    /*margin-left: 45%;
+    margin-right: 30%*/
+  }
+  
+  .button:hover {
+    background-color: #3e8e41; /* darker green on hover */
+  }
+  
+  .button:active {
+    background-color: #3e8e41; /* darker green on click */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  a {
+    text-decoration: none !important;
+  }
+

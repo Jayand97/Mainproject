@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>Fraud Prediction</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>Fraud Transcation Prediction System</h1>
+    <form method="post">
+        <label for="type">Transaction Type:</label>
+        <select id="type" name="type">
+            <option value="0">CASH IN</option>
+            <option value="1">CASH OUT</option>
+            <option value="2">DEBIT</option>
+            <option value="3">PAYMENT</option>
+            <option value="4">TRANSFER</option>
+          </select>
+       
+        <label for="Amount">Transaction Amount:</label>
+        <input type="number" name="amount" id="amount" step="0.0001" required><br>
+        <label for="Oldbalance">Old Balance:</label>
+        <input type="number" name="oldb" id="oldb" step="0.0001" required><br>
+        <label for="Newbalance">Current Balance:</label>
+        <input type="number" name="newb" id="newb" step="0.0001" required><br>
+        
+        <button type="submit">Predict</button>
+        <input type="reset">
+    </form>
+</body>
+</html>
